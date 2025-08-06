@@ -1,0 +1,117 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f7f6f6d8;
+    padding-top: 100px ;
+}
+header {
+    margin-top: 20px;
+    text-align: center; 
+}
+.titulo{
+    color: #2d7a73;
+    text-align: center;  
+    padding: 20px;
+    margin: 0 auto 20px auto; 
+    background-color: #d6d6d6fc;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    max-width: 640px;
+}
+header nav {
+    display: inline-block; 
+    margin-top: 10px; 
+    padding: 10px 20px;
+    margin: 10px; 
+    background-color: #ebe7e7;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+a{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 100px;
+    text-align:center;
+}
+a:visited{
+    color: #000000;
+}
+a:hover{
+    color: #03a51e;
+}
+
+.Calculadora{
+    background-color: rgb(255, 255, 255);
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgba(12, 12, 12, 0.342);
+    box-shadow: 8px 8px 8px rgba(43, 42, 42, 0.966);
+    border-radius: 4px;
+    padding: 25px; 
+}
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content:space-between ;
+    margin-bottom: 56px;
+}
+form button{
+    background-color: rgba(23, 148, 12, 0.767);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid rgba(23, 148, 12, 0.767);
+}
+form button:hover{
+    color:rgb(23, 148, 12,  0.767);
+    background-color: #fff;
+}
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid  #0c0c0c34;
+}
+table img{
+    height: 60px;
+}
+.resulado{
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+.aprovado{
+    background-color: rgba(23, 148, 12, 0.767);
+}
+.reprovado{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
